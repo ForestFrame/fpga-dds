@@ -75,8 +75,8 @@ module tb_wave_ctrl_fre_pha_data_ctrl;
       .data_out(data_out[2*DATA_WIDTH-1:0])
   );
 
-  initial begin
-
-  end
+ initial begin
+  
+ end
 
 endmodule
