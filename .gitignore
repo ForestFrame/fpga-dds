@@ -1,0 +1,53 @@
+# --- Quartus / Intel FPGA generated directories and files ---
+/fpga-dds/quartus_prj/db/
+/fpga-dds/quartus_prj/incremental_db/
+/fpga-dds/quartus_prj/output_files/
+/fpga-dds/quartus_prj/greybox_tmp/
+/fpga-dds/quartus_prj/simulation/
+/fpga-dds/quartus_prj/*.qws
+fpga-dds/quartus_prj/*.rpt
+
+# Quartus compiled bitstreams / programming files
+*.sof
+*.pof
+*.rbf
+*.jic
+*.rbf.gz
+
+# --- ModelSim / QuestaSim / VCS simulation artifacts ---
+/fpga-dds/sim/work/
+/**/work/
+*.wlf
+vsim.wlf
+transcript
+*.vcd
+*.wdb
+*.mpf
+*.cr.mti
+
+# --- Generated/temporary files from scripts (MATLAB, build tools) ---
+/fpga-dds/matlab_prj/*.mif
+/fpga-dds/matlab_prj/*.ver
+*.hex
+
+# --- IDE / editor configs and swap files ---
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Logs, temp, caches ---
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# --- Optional: keep these out if you have local toolstate ---
+*.cache
+*.cache/**
